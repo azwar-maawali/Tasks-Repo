@@ -1,0 +1,4 @@
+THREAT REPORT - Generated: 2026-04-06 20:44:06
+================================================
+Suspicious IPs (3+ log appearances):
+  IP: 203.0.113.42 | Occurrences: 3

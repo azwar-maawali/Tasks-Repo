@@ -1,0 +1,92 @@
+[
+    {
+        "timestamp": "2024-11-01 08:01:12",
+        "action": "ACCEPT",
+        "protocol": "TCP",
+        "source_ip": "192.168.1.10",
+        "source_port": "54321",
+        "destination_ip": "10.0.0.5",
+        "destination_port": "80",
+        "packet_size": "52"
+    },
+    {
+        "timestamp": "2024-11-01 08:01:45",
+        "action": "DROP",
+        "protocol": "TCP",
+        "source_ip": "203.0.113.42",
+        "source_port": "6000",
+        "destination_ip": "10.0.0.5",
+        "destination_port": "22",
+        "packet_size": "40"
+    },
+    {
+        "timestamp": "2024-11-01 08:02:10",
+        "action": "ACCEPT",
+        "protocol": "UDP",
+        "source_ip": "192.168.1.15",
+        "source_port": "1025",
+        "destination_ip": "8.8.8.8",
+        "destination_port": "53",
+        "packet_size": "72"
+    },
+    {
+        "timestamp": "2024-11-01 08:03:05",
+        "action": "DROP",
+        "protocol": "TCP",
+        "source_ip": "203.0.113.42",
+        "source_port": "6001",
+        "destination_ip": "10.0.0.5",
+        "destination_port": "443",
+        "packet_size": "40"
+    },
+    {
+        "timestamp": "2024-11-01 08:04:22",
+        "action": "ACCEPT",
+        "protocol": "TCP",
+        "source_ip": "192.168.1.10",
+        "source_port": "54400",
+        "destination_ip": "10.0.0.5",
+        "destination_port": "443",
+        "packet_size": "60"
+    },
+    {
+        "timestamp": "2024-11-01 08:05:01",
+        "action": "DROP",
+        "protocol": "TCP",
+        "source_ip": "198.51.100.9",
+        "source_port": "9999",
+        "destination_ip": "10.0.0.5",
+        "destination_port": "3306",
+        "packet_size": "40"
+    },
+    {
+        "timestamp": "2024-11-01 08:06:30",
+        "action": "DROP",
+        "protocol": "TCP",
+        "source_ip": "203.0.113.42",
+        "source_port": "6100",
+        "destination_ip": "10.0.0.5",
+        "destination_port": "80",
+        "packet_size": "40"
+    },
+    {
+        "timestamp": "2024-11-01 08:07:10",
+        "action": "ACCEPT",
+        "protocol": "TCP",
+        "source_ip": "192.168.1.20",
+        "source_port": "2048",
+        "destination_ip": "172.16.0.1",
+        "destination_port": "8080",
+        "packet_size": "80"
+    },
+    {
+        "timestamp": "2024-11-01 08:08:55",
+        "action": "DROP",
+        "protocol": "UDP",
+        "source_ip": "198.51.100.9",
+        "source_port": "1234",
+        "destination_ip": "10.0.0.5",
+        "destination_port": "53",
+        "packet_size": "28"
+    }
+]
