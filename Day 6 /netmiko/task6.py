@@ -75,6 +75,6 @@ for device in my_devices:
         print(f"Error backing up configuration for {device['ip']}: {e}")
 
     finally:
-        if "net_connect" in locals() and net_connect.is_alive():
+        if net_connect and net_connect.is_alive():
             net_connect.disconnect()
         print(f"Disconnected from {device['ip']}.")
