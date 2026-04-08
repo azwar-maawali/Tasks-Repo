@@ -63,7 +63,10 @@ for device in my_devices:
 
         # ── Retrieve Running Config ───────────────────────
         print(f"Retrieving running configuration from {hostname}...")
-        config = net_connect.send_command("show running-config")
+        if device["device_type"] == "juniper_junos":
+            config = net_connect.send_command("show configuration")
+        else:
+            config = net_connect.send_command("show running-config")
 
         # ── Save to File ──────────────────────────────────
         with open(filepath, "w") as f:
